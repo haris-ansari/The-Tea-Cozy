@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+}
+
+.banner {
+    /* position: relative;
+    top: 70px; */
+    background-image: url(../img/img-mission-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo > img {
+    height: 50px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 400px;
+    list-style: none;
+    align-items: center;
+}
+
+nav > ul > li > a {
+    color: seashell;
+} 
+
+
+.mission {
+    background-color: black;
+    width: 1200px;
+    align-items: center;
+}
+
+.mission > h2, h4 {
+    margin: 10px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.menu-head {
+    width: 1000px;
+}
+
+.menu-head > h3, p {
+    margin: 20px auto;
+}
+
+.menu {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+.tea-type {
+    height: 200px;
+    width: 300px;
+}
+
+.location {
+    background-image: url(../img/img-locations-background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    height: 500px;
+    padding-top: 80px;
+}
+
+
+.contact-info {
+    justify-content: center;
+    line-height: 3;
+    height: 200px;
+}
+
+.copyright {
+    text-align: start;
+    margin: 20px;
+}
+
+.location-content {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.location-card {
+    background-color: black;
+    width: 300px;;
+    margin: 20px 20px;
+    opacity: 1;
+    padding: 30px;
+}
